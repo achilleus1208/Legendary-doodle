@@ -110,7 +110,7 @@ namespace Complete
                 Instantiate (m_Shell, m_FireTransform_1.position, m_FireTransform_1.rotation) as Rigidbody;
 
                 // Set the shell's velocity to the launch force in the fire position's forward direction.
-                shellInstance_1.velocity = m_CurrentLaunchForce * m_FireTransform_1.forward;              
+                shellInstance_1.velocity = m_CurrentLaunchForce * m_FireTransform_1.forward;
             }
             
             // Create an instance of the shell and store a reference to it's rigidbody.

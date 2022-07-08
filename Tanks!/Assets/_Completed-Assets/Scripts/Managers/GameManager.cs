@@ -50,6 +50,7 @@ namespace Complete
                     Instantiate(m_TankPrefab_A, m_Tanks[0].m_SpawnPoint.position, m_Tanks[0].m_SpawnPoint.rotation) as GameObject;
                 m_Tanks[0].m_PlayerNumber = 1;
                 m_Tanks[0].Setup();
+                
             m_Tanks[1].m_Instance =
                     Instantiate(m_TankPrefab_P, m_Tanks[1].m_SpawnPoint.position, m_Tanks[1].m_SpawnPoint.rotation) as GameObject;
                 m_Tanks[1].m_PlayerNumber = 2;
@@ -269,4 +270,4 @@ namespace Complete
             }
         }
     }
-}
+}   
